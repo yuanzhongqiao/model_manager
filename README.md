@@ -1,31 +1,24 @@
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a name="user-content-readme-top"></a></p>
 
-<a name="readme-top"></a>
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <h3 align="center">Model Manager v0.1, by</h3>
-
-![openfoundry white](https://github.com/openfoundry-ai/model_manager/assets/152243036/01b64d39-1402-45b6-8dce-8b4626c41935)
-
-  <p align="center">
-    Deploy open source AI models to AWS in minutes.
-    <br />
+<br>
+<div align="center" dir="auto">
+  <div class="markdown-heading" dir="auto"><h3 align="center" tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型管理器 v0.1，作者</font></font></h3><a id="user-content-model-manager-v01-by" class="anchor" aria-label="永久链接：模型管理器 v0.1，作者：" href="#model-manager-v01-by"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/152243036/317631686-01b64d39-1402-45b6-8dce-8b4626c41935.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNTIyNDMwMzYvMzE3NjMxNjg2LTAxYjY0ZDM5LTE0MDItNDViNi04ZGNlLThiNDYyNmM0MTkzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOGFkNjM5OTE5M2UzYjIwZGVmYWFiZGU4ZjUxNDI0MTc2MDlhODM1NWYwMThiMjIyNzk1YmMzZGQ3YzQxMjNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.OI2FmqvscUgdi-30--0-LYmtF4roLygVlTU5iIN03xQ"><img src="https://private-user-images.githubusercontent.com/152243036/317631686-01b64d39-1402-45b6-8dce-8b4626c41935.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNTIyNDMwMzYvMzE3NjMxNjg2LTAxYjY0ZDM5LTE0MDItNDViNi04ZGNlLThiNDYyNmM0MTkzNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOGFkNjM5OTE5M2UzYjIwZGVmYWFiZGU4ZjUxNDI0MTc2MDlhODM1NWYwMThiMjIyNzk1YmMzZGQ3YzQxMjNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.OI2FmqvscUgdi-30--0-LYmtF4roLygVlTU5iIN03xQ" alt="开放铸造白色" style="max-width: 100%;"></a></p>
+  <p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+    只需几分钟即可将开源 AI 模型部署到 AWS。
+    </font></font><br>
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
+  <summary><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></summary>
+  <ol dir="auto">
     <li>
       <a href="#about-model-manager">About Model Manager</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
+      <ul dir="auto">
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -39,152 +32,178 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About Model Manager
-Model Manager is a Python tool that simplifies the process of deploying an open source AI model to your own cloud. Instead of spending hours digging through documentation to figure out how to get AWS working, Model Manager lets you deploy open source AI models directly from the command line.
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于模型管理器</font></font></h2><a id="user-content-about-model-manager" class="anchor" aria-label="永久链接：关于模型管理器" href="#about-model-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Model Manager 是一个 Python 工具，可简化将开源 AI 模型部署到您自己的云的过程。 Model Manager 允许您直接从命令行部署开源 AI 模型，而无需花费数小时挖掘文档来弄清楚如何让 AWS 工作。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 Hugging Face 或 SageMaker 中选择一个模型，模型管理器将在几分钟内启动一个具有可随时查询端点的 SageMaker 实例。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里，我们正在部署 Microsoft 的 Phi2。诸如此类的较大型号大约需要 10 分钟才能启动。</font></font></p>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频描述 phi2.mov" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">phi2.mov</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-Choose a model from Hugging Face or SageMaker, and Model Manager will spin up a SageMaker instance with a ready-to-query endpoint in minutes.
+  <video src="https://private-user-images.githubusercontent.com/164248540/314861171-f7fbf9ce-04c3-49b0-b5be-2977b5cc90af.mov?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0ODYxMTcxLWY3ZmJmOWNlLTA0YzMtNDliMC1iNWJlLTI5NzdiNWNjOTBhZi5tb3Y_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NzIxMzFlODBmNDRlNTk1YjhhZDFiOWY0OWRkMmU0NWM5YjEwNTcyZjc0ZWMwNGMwMjY3ZWQ4MjA3YWQzZmYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.1Shl_l8pTAR2gtIDSCxzPurgshf0190AwpJdq47bgwA" data-canonical-src="https://private-user-images.githubusercontent.com/164248540/314861171-f7fbf9ce-04c3-49b0-b5be-2977b5cc90af.mov?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0ODYxMTcxLWY3ZmJmOWNlLTA0YzMtNDliMC1iNWJlLTI5NzdiNWNjOTBhZi5tb3Y_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NzIxMzFlODBmNDRlNTk1YjhhZDFiOWY0OWRkMmU0NWM5YjEwNTcyZjc0ZWMwNGMwMjY3ZWQ4MjA3YWQzZmYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.1Shl_l8pTAR2gtIDSCxzPurgshf0190AwpJdq47bgwA" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-Here we’re deploying Microsoft’s Phi2. Larger models such as this take about 10 minutes to spin up.
+  </video>
+</details>
 
-https://github.com/openfoundry-ai/model_manager/assets/164248540/f7fbf9ce-04c3-49b0-b5be-2977b5cc90af
-
-<br>
-Once the model is running, you can query it to get a response.
-
-![Screenshot 2024-03-20 at 6 01 44 PM](https://github.com/openfoundry-ai/model_manager/assets/164248540/20b46f8f-da01-4cc7-8343-e647b27ba7c6)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-<br>
-
-## Getting Started
-
-Model Manager works with AWS. Azure and GCP support are coming soon!
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-* Python
-* An AWS account
-* Quota for AWS SageMaker instances (by default, you get 2 instances of ml.m5.xlarge for free)
-* Certain Hugging Face models (e.g. Llama2) require an access token ([hf docs](https://huggingface.co/docs/hub/en/models-gated#access-gated-models-as-a-user))
-
-
-### Installation
-
-**Step 1: Set up AWS and SageMaker**
-
-To get started, you’ll need an AWS account which you can create at https://aws.amazon.com/. Then you’ll need to create access keys for SageMaker.
-
-We made a walkthrough video to show you how to get set up with your SageMaker access keys in 2 minutes.
-
-https://github.com/openfoundry-ai/model_manager/assets/164248540/52b0dcee-87cd-48de-9251-b2d3571abf61
-
-If you prefer a written doc, we wrote up the steps in [Google Doc](https://docs.google.com/document/d/1kLzPU43kvLAoYzmBfvAkINmXZ24JzAp_fdBIYjJRXvU/edit?usp=sharing) as well. 
-
-
-**Step 2: Set up Model Manager**
-
-You should now have your Access Key and Secret from SageMaker. Now you can set up Model Manager! Clone the repo to your local machine, and then run the setup script in the repo:
-
-```sh
-   bash setup.sh
-```
-
-This will configure the AWS client so you’re ready to start deploying models. You’ll be prompted to enter your Access Key and Secret here. You can also specify your AWS region. The default is us-east-1. You only need to change this if your SageMaker instance quota is in a different region.
-
-Optional: If you have a Hugging Face Hub Token, you can add it to `.env` that was generated by the setup script and add it with the key:
-
-```sh
-HUGGING_FACE_HUB_KEY="KeyValueHere"
-```
-
-This will allow you to use models with access restrictions such as Llama2 as long as your Hugging Face account has permission to do so.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE -->
-<br>
-
-## Using Model Manager
-After you’ve set up AWS and Model Manager per the above, run Model Manager using python or python3:
-```sh
-python3 model_manager.py
-```
-
-![home screen](https://github.com/openfoundry-ai/model_manager/assets/164248540/22ede5aa-99e3-4191-bca8-3021c6b572e7)
-
-
-Now you’re ready to start shipping models onto your cloud!
-<br>
-<br>
-
-### Deploying models
-
-There are three ways from where you can deploy models: Hugging Face, SageMaker, or your own custom model. Use whichever works for you! If you're deploying with Hugging Face, copy/paste the full model name from Hugging Face. For example, `google-bert/bert-base-uncased`. Note that you’ll need larger, more expensive instance types in order to run bigger models. It takes anywhere from 2 minutes (for smaller models) to 10+ minutes (for large models) to spin up the instance with your model. If you are deploying a Sagemaker model, select a framework and search from a model. If you a deploying a custom model, provide either a valid S3 path or a local path (and the tool will automatically upload it for you). Once deployed, we will generate a YAML file with the deployment and model under `/configs`
-
-#### Deploy using a yaml file
-For future deploys, we recommend deploying through a yaml file for reproducability and IAC. From the cli, you can deploy a model without going through all the menus. You can even integrate us with your Github Actions to deploy on PR merge. Deploy via YAML files simply by passing the `--config` option with local path like so:
-```
-python model_manager.py --config ./example_configs/llama7b.yaml
-```
+<br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+模型运行后，您可以查询它以获得响应。
+</font></font><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/164248540/314855927-20b46f8f-da01-4cc7-8343-e647b27ba7c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0ODU1OTI3LTIwYjQ2ZjhmLWRhMDEtNGNjNy04MzQzLWU2NDdiMjdiYTdjNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NzdkOTg4NGE0NzI2NDQ5MmRkN2E1NDkyYzk5OTlmY2ZkODMxYjhhODBkNDAzMmNlNjRkOGJjYjVlY2RlZjMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9._WJOP3KVUKL8M2QAUYeKkKnn3MpdA-iaJ6w5p7G3_58"><img src="https://private-user-images.githubusercontent.com/164248540/314855927-20b46f8f-da01-4cc7-8343-e647b27ba7c6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0ODU1OTI3LTIwYjQ2ZjhmLWRhMDEtNGNjNy04MzQzLWU2NDdiMjdiYTdjNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NzdkOTg4NGE0NzI2NDQ5MmRkN2E1NDkyYzk5OTlmY2ZkODMxYjhhODBkNDAzMmNlNjRkOGJjYjVlY2RlZjMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9._WJOP3KVUKL8M2QAUYeKkKnn3MpdA-iaJ6w5p7G3_58" alt="屏幕截图 2024-03-20 6 01 44 PM" style="max-width: 100%;"></a></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
 <br>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型管理器与 AWS 合作。 Azure 和 GCP 支持即将推出！要启动并运行本地副本，请按照以下简单步骤操作。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h3><a id="user-content-prerequisites" class="anchor" aria-label="永久链接：先决条件" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AWS 账户</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AWS SageMaker 实例的配额（默认情况下，您免费获得 2 个 ml.m5.xlarge 实例）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些 Hugging Face 模型（例如 Llama2）需要访问令牌（</font></font><a href="https://huggingface.co/docs/hub/en/models-gated#access-gated-models-as-a-user" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hf docs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第 1 步：设置 AWS 和 SageMaker</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，您需要一个 AWS 账户，您可以在</font></font><a href="https://aws.amazon.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://aws.amazon.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建该账户。然后，您需要为 SageMaker 创建访问密钥。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们制作了一个演练视频，向您展示如何在 2 分钟内使用 SageMaker 访问密钥进行设置。</font></font></p>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频说明Setting.up.AWS.for.Model.Manager.Deployment.mp4" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置.AWS.for.Model.Manager.Deployment.mp4</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
+
+  <video src="https://private-user-images.githubusercontent.com/164248540/314767737-52b0dcee-87cd-48de-9251-b2d3571abf61.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY3NzM3LTUyYjBkY2VlLTg3Y2QtNDhkZS05MjUxLWIyZDM1NzFhYmY2MS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZTYzMTdlMmQxZWM1YjRmMzQ2ZTMxZDFjYzQ3NjljMzkxMTk0NDRjZjU3Njk3ZTQyMGU3NGY4NDJiOTdjNzQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gwyaIVFD1dy9nr5WCl1-6ZjXqq7YQBZ8YK-vEVesQEM" data-canonical-src="https://private-user-images.githubusercontent.com/164248540/314767737-52b0dcee-87cd-48de-9251-b2d3571abf61.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY3NzM3LTUyYjBkY2VlLTg3Y2QtNDhkZS05MjUxLWIyZDM1NzFhYmY2MS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZTYzMTdlMmQxZWM1YjRmMzQ2ZTMxZDFjYzQ3NjljMzkxMTk0NDRjZjU3Njk3ZTQyMGU3NGY4NDJiOTdjNzQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gwyaIVFD1dy9nr5WCl1-6ZjXqq7YQBZ8YK-vEVesQEM" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+
+  </video>
+</details>
+
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您更喜欢书面文档，我们</font><font style="vertical-align: inherit;">也在</font></font><a href="https://docs.google.com/document/d/1kLzPU43kvLAoYzmBfvAkINmXZ24JzAp_fdBIYjJRXvU/edit?usp=sharing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google 文档中写下了这些步骤。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第 2 步：设置模型管理器</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您现在应该拥有来自 SageMaker 的访问密钥和秘密。现在您可以设置模型管理器了！将存储库克隆到本地计算机，然后运行存储库中的设置脚本：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>   bash setup.sh</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="   bash setup.sh" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将配置 AWS 客户端，以便您准备好开始部署模型。系统将提示您在此处输入访问密钥和秘密。您还可以指定您的 AWS 区域。默认值为 us-east-1。仅当您的 SageMaker 实例配额位于不同区域时，您才需要更改此设置。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可选：如果您有 Hugging Face Hub 令牌，您可以将其添加到</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置脚本生成的令牌中，并使用密钥添加它：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>HUGGING_FACE_HUB_KEY=<span class="pl-s"><span class="pl-pds">"</span>KeyValueHere<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="HUGGING_FACE_HUB_KEY=&quot;KeyValueHere&quot;" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将允许您使用具有访问限制的模型，例如 Llama2，只要您的 Hugging Face 帐户有权这样做。</font></font></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
+
 <br>
-
-If you’re using the `ml.m5.xlarge` instance type, here are some small Hugging Face models that work great:
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用模型管理器</font></font></h2><a id="user-content-using-model-manager" class="anchor" aria-label="永久链接：使用模型管理器" href="#using-model-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据上述内容设置 AWS 和模型管理器后，使用 python 或 python3 运行模型管理器：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>python3 model_manager.py</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="python3 model_manager.py" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/164248540/314764971-22ede5aa-99e3-4191-bca8-3021c6b572e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY0OTcxLTIyZWRlNWFhLTk5ZTMtNDE5MS1iY2E4LTMwMjFjNmI1NzJlNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YmY4YjFkYWJhZmZkOTcyNWU3ZWE2MzgzNmVlMmRiMDcxOGJmNWRlN2I3YWY3OGMwZjg2NzIzNmYwZmJkZDg3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Xo2SiN4X67RLnRC0-GG4dFq61jsfx0gjpuJs8Mj3QSk"><img src="https://private-user-images.githubusercontent.com/164248540/314764971-22ede5aa-99e3-4191-bca8-3021c6b572e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY0OTcxLTIyZWRlNWFhLTk5ZTMtNDE5MS1iY2E4LTMwMjFjNmI1NzJlNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YmY4YjFkYWJhZmZkOTcyNWU3ZWE2MzgzNmVlMmRiMDcxOGJmNWRlN2I3YWY3OGMwZjg2NzIzNmYwZmJkZDg3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Xo2SiN4X67RLnRC0-GG4dFq61jsfx0gjpuJs8Mj3QSk" alt="主屏幕" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现在您已准备好开始将模型传送到您的云上！
+</font></font><br>
+<br></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署模型</font></font></h3><a id="user-content-deploying-models" class="anchor" aria-label="永久链接：部署模型" href="#deploying-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过三种方式部署模型：Hugging Face、SageMaker 或您自己的自定义模型。使用适合您的任何一个！如果您使用 Hugging Face 进行部署，请复制/粘贴 Hugging Face 中的完整模型名称。例如，</font></font><code>google-bert/bert-base-uncased</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。请注意，您需要更大、更昂贵的实例类型才能运行更大的模型。启动实例与模型的时间从 2 分钟（对于较小的模型）到 10 多分钟（对于大型模型）不等。如果您要部署 Sagemaker 模型，请选择一个框架并从模型中搜索。如果您要部署自定义模型，请提供有效的 S3 路径或本地路径（该工具将自动为您上传）。部署后，我们将生成一个 YAML 文件，其中包含部署和模型</font></font><code>/configs</code></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 yaml 文件进行部署</font></font></h4><a id="user-content-deploy-using-a-yaml-file" class="anchor" aria-label="永久链接：使用 yaml 文件进行部署" href="#deploy-using-a-yaml-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于未来的部署，我们建议通过 yaml 文件进行部署，以实现可重复性和 IAC。通过 cli，您可以部署模型，而无需浏览所有菜单。您甚至可以将我们与您的 Github Actions 集成以在 PR 合并上进行部署。只需传递</font></font><code>--config</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有本地路径的选项即可通过 YAML 文件进行部署，如下所示：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>python model_manager.py --config ./example_configs/llama7b.yaml
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="python model_manager.py --config ./example_configs/llama7b.yaml" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
 <br>
 <br>
-
-**Model: [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased)**
-
-- **Type:** Fill Mask: tries to complete your sentence like Madlibs
-- **Query format:** text string with `[MASK]` somewhere in it that you wish for the transformer to fill
-    
-    ![fill mask bert query](https://github.com/openfoundry-ai/model_manager/assets/164248540/a8a6d8e9-183f-4c85-afe8-b9c21d8aa687)
-
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用</font></font><code>ml.m5.xlarge</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实例类型，这里有一些效果很好的小型 Hugging Face 模型：
+</font></font><br>
+<br></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">型号：</font></font><a href="https://huggingface.co/google-bert/bert-base-uncased" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">google-bert/bert-base-uncased</font></font></a></strong></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">填充蒙版：尝试像 Madlibs 一样完成句子</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查询格式：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文本字符串，</font></font><code>[MASK]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其中包含您希望变压器填充的某个位置</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/164248540/314764990-a8a6d8e9-183f-4c85-afe8-b9c21d8aa687.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY0OTkwLWE4YTZkOGU5LTE4M2YtNGM4NS1hZmU4LWI5YzIxZDhhYTY4Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YWJjZWRhMzE5NWU3YWUxZTVlNGU0ZGQyZDNmMWMzN2M5OThjZDliZjA2ZGFjN2MxYzE4NzMzMzhkYjQ1ZDk5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Em80Q15eTuGskQmKZvEJcp7UweiJy0ycBDmpB6__hXg"><img src="https://private-user-images.githubusercontent.com/164248540/314764990-a8a6d8e9-183f-4c85-afe8-b9c21d8aa687.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY0OTkwLWE4YTZkOGU5LTE4M2YtNGM4NS1hZmU4LWI5YzIxZDhhYTY4Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YWJjZWRhMzE5NWU3YWUxZTVlNGU0ZGQyZDNmMWMzN2M5OThjZDliZjA2ZGFjN2MxYzE4NzMzMzhkYjQ1ZDk5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Em80Q15eTuGskQmKZvEJcp7UweiJy0ycBDmpB6__hXg" alt="填充掩码 bert 查询" style="max-width: 100%;"></a></p>
+</li>
+</ul>
 <br>
 <br>
-
-**Model: [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)**
-
-- **Type:** Feature extraction: turns text into a 384d vector embedding for semantic search / clustering
-- **Query format:** "*type out a sentence like this one.*"
-    
-    ![sentence transformer query](https://github.com/openfoundry-ai/model_manager/assets/164248540/57b4da43-03bb-4642-892b-5f287dfce0d8)
-
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">型号：</font></font><a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sentence-transformers/all-MiniLM-L6-v2</font></font></a></strong></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征提取：将文本转换为 384d 向量嵌入，用于语义搜索/聚类</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查询格式：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> “</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打出这样的句子。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ”</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/164248540/314765013-57b4da43-03bb-4642-892b-5f287dfce0d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY1MDEzLTU3YjRkYTQzLTAzYmItNDY0Mi04OTJiLTVmMjg3ZGZjZTBkOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOTI4NzNiOTUxNWQwNWVlMDc3MzU2ZjY3MWUzZTU5M2YwZWY0MjcxMjkxMjg2MGY3OTZkYzFkODQ1NDM4NjI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.EVOpBRAe8PkURlZyzylASVsbFuvPL1Cs-GiWABGw_V8"><img src="https://private-user-images.githubusercontent.com/164248540/314765013-57b4da43-03bb-4642-892b-5f287dfce0d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY1MDEzLTU3YjRkYTQzLTAzYmItNDY0Mi04OTJiLTVmMjg3ZGZjZTBkOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOTI4NzNiOTUxNWQwNWVlMDc3MzU2ZjY3MWUzZTU5M2YwZWY0MjcxMjkxMjg2MGY3OTZkYzFkODQ1NDM4NjI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.EVOpBRAe8PkURlZyzylASVsbFuvPL1Cs-GiWABGw_V8" alt="句子转换器查询" style="max-width: 100%;"></a></p>
+</li>
+</ul>
 <br>
 <br>
-
-**Model: [deepset/roberta-base-squad2](https://huggingface.co/deepset/roberta-base-squad2)**
-
-- **Type:** Question answering; provide a question and some context from which the transformer will answer the question.
-- **Query format:** A dict with two keys: `question` and `context`. For our tool, we will prompt you a second time to provide the context.
-
-    ![roberta eqa query](https://github.com/openfoundry-ai/model_manager/assets/164248540/2054fdb7-1f3d-4bfe-a806-c5ebde8ad20d)
-
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">型号：</font></font><a href="https://huggingface.co/deepset/roberta-base-squad2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">deepset/roberta-base-squad2</font></font></a></strong></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问答；提供一个问题和一些上下文，变压器将回答这个问题。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查询格式：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有两个键的字典：</font></font><code>question</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>context</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。对于我们的工具，我们将再次提示您提供上下文。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/164248540/314765032-2054fdb7-1f3d-4bfe-a806-c5ebde8ad20d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY1MDMyLTIwNTRmZGI3LTFmM2QtNGJmZS1hODA2LWM1ZWJkZThhZDIwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzEwMDAzMmZmYmRiMmU2OGNmMTJkZTc1MTBjY2UxMDljNDIxYjI5ZjcwYzBhNzk3YzE3OTMxYTlkZmVkZWRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.r0rchRh7J2P7xzv1vw9us3zkVD4-DT7I6I5KC3WYmvk"><img src="https://private-user-images.githubusercontent.com/164248540/314765032-2054fdb7-1f3d-4bfe-a806-c5ebde8ad20d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ0ODkxOTksIm5iZiI6MTcxNDQ4ODg5OSwicGF0aCI6Ii8xNjQyNDg1NDAvMzE0NzY1MDMyLTIwNTRmZGI3LTFmM2QtNGJmZS1hODA2LWM1ZWJkZThhZDIwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQzMFQxNDU0NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzEwMDAzMmZmYmRiMmU2OGNmMTJkZTc1MTBjY2UxMDljNDIxYjI5ZjcwYzBhNzk3YzE3OTMxYTlkZmVkZWRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.r0rchRh7J2P7xzv1vw9us3zkVD4-DT7I6I5KC3WYmvk" alt="罗伯塔 EQA 查询" style="max-width: 100%;"></a></p>
+</li>
+</ul>
 <br>
 <br>
-
-### Querying models
-There are three ways to query a model you’ve deployed: you can query it using the Model Manager script, spin up a FastAPI server, or call it directly from your code using SageMaker’s API.
-
-To spin up a FastAPI server, run
-```
-uvicorn server:app --reload
-```
-This will create a server running at `0.0.0.0` on port 8000 which you can query against from your app. There are 2 endpoints:
-1. `GET /endpoint/{endpoint_name}`: Get information about a deployed endpoint
-2. `POST /endpoint/{endpoint_name}/query`: Query a model for inference. The request expects a JSON body with only the `query` key being required. `context` is required for some types of models (such as question-answering). `parameters` can be passed for text-generation/LLM models to further control the output of the model.
-```
-{
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查询模型</font></font></h3><a id="user-content-querying-models" class="anchor" aria-label="永久链接：查询模型" href="#querying-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过三种方式查询已部署的模型：您可以使用模型管理器脚本进行查询、启动 FastAPI 服务器或使用 SageMaker 的 API 直接从代码中调用它。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要启动 FastAPI 服务器，请运行</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>uvicorn server:app --reload
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="uvicorn server:app --reload" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将创建一个在端口 8000 上运行的服务器</font></font><code>0.0.0.0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以从应用程序中查询该服务器。有 2 个端点：</font></font></p>
+<ol dir="auto">
+<li><code>GET /endpoint/{endpoint_name}</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：获取有关已部署端点的信息</font></font></li>
+<li><code>POST /endpoint/{endpoint_name}/query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：查询模型进行推理。该请求需要一个 JSON 正文，仅</font></font><code>query</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要密钥。</font></font><code>context</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">某些类型的模型（例如问答）需要。</font></font><code>parameters</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以传递给文本生成/LLM模型以进一步控制模型的输出。</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>{
   "query": "string",
   "context": "string",
   "parameters": {
@@ -196,76 +215,67 @@ This will create a server running at `0.0.0.0` on port 8000 which you can query 
     "top_p": 0
   }
 }
-```
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
+  &quot;query&quot;: &quot;string&quot;,
+  &quot;context&quot;: &quot;string&quot;,
+  &quot;parameters&quot;: {
+    &quot;max_length&quot;: 0,
+    &quot;max_new_tokens&quot;: 0,
+    &quot;repetition_penalty&quot;: 0,
+    &quot;temperature&quot;: 0,
+    &quot;top_k&quot;: 0,
+    &quot;top_p&quot;: 0
+  }
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型管理器中的查询当前适用于基于文本的模型。图像生成、多模态等模型尚不支持。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用 SageMaker API 查询所有已部署的模型。有关如何执行此操作的文档可以</font></font><a href="https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_runtime_InvokeEndpoint.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">停用模型</font></font></h3><a id="user-content-deactivating-models" class="anchor" aria-label="永久链接：停用模型" href="#deactivating-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您启动的任何模型端点都将持续运行，除非您停用它们！请务必删除您不再使用的终端节点，这样您就不会继续为 SageMaker 实例付费。</font></font></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-Querying within Model Manager currently works for text-based models. Image generation, multi-modal, etc. models are not yet supported.
-
-You can query all deployed models using the SageMaker API. Documentation for how to do this can be found [here](https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_runtime_InvokeEndpoint.html).
-
-### Deactivating models
-
-Any model endpoints you spin up will run continuously unless you deactivate them! Make sure to delete endpoints you’re no longer using so you don’t keep getting charged for your SageMaker instance.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
 <br>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们下一步的工作</font></font></h2><a id="user-content-what-were-working-on-next" class="anchor" aria-label="永久链接：我们下一步的工作" href="#what-were-working-on-next"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  针对各种边缘情况更强大的错误处理</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  详细日志记录</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  启用/禁用自动缩放</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  部署到 Azure 和 GCP</font></font></li>
+</ul>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-## What we're working on next
-- [ ]  More robust error handling for various edge cases
-- [ ]  Verbose logging
-- [ ]  Enabling / disabling autoscaling
-- [ ]  Deployment to Azure and GCP
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ISSUES -->
 <br>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已知的问题</font></font></h2><a id="user-content-known-issues" class="anchor" aria-label="永久链接：已知问题" href="#known-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  模型管理器中的查询当前仅适用于基于文本的模型 - 不适用于多模式、图像生成等。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  模型版本是静态的。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  删除模型不是即时的，它可能会在排队等待删除后短暂显示</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  在同一分钟内部署相同的模型将会失败</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/openfoundry-ai/model_manager/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未决问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取已知问题和建议功能的完整列表。</font></font></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-## Known issues
-- [ ]  Querying within Model Manager currently only works with text-based model - doesn’t work with multimodal, image generation, etc.
-- [ ]  Model versions are static.
-- [ ]  Deleting a model is not instant, it may show up briefly after it was queued for deletion
-- [ ]  Deploying the same model within the same minute will break
-
-See [open issues](https://github.com/openfoundry-ai/model_manager/issues) for a full list of known issues and proposed features.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTRIBUTING -->
 <br>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有更好的建议，请分叉该存储库并创建拉取请求。您也可以简单地使用标签“增强”打开问题。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您觉得本文有用，请给我们一颗星！再次感谢！</font></font></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-## Contributing
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-If you found this useful, please give us a star! Thanks again!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
 <br>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据 MIT 许可证分发。请参阅</font></font><code>LICENSE.txt</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取更多信息。</font></font></p>
+<p align="right" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（</font></font><a href="#readme-top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回到顶部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
 <br>
-
-## Contact
-
-You can reach us, Arthur & Tyler, at [hello@openfoundry.ai](mailto:hello@openfoundry.ai). 
-
-We’d love to hear from you! We’re excited to learn how we can make this more valuable for the community and welcome any and all feedback and suggestions.
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接触</font></font></h2><a id="user-content-contact" class="anchor" aria-label="永久链接：联系方式" href="#contact"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过</font></font><a href="mailto:hello@openfoundry.ai"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hello@openfoundry.ai</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们，Arthur 和 Tyler 。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们很乐意听取您的意见！我们很高兴了解如何使其对社区更有价值，并欢迎任何和所有反馈和建议。</font></font></p>
+</article></div>
